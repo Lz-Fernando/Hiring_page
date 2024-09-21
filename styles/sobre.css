@@ -1,0 +1,37 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 407px;
+    gap: 24px;
+}
+
+.sobre-span,
+.sobre-titulo,
+.sobre-descricao {
+    font-family: var(--fonte-principal);
+}
+
+.sobre-span,
+.sobre-titulo{
+    font-weight: 600;
+}
+
+.sobre-span{
+    font-size: 16px;
+    color: var(--vermelho);
+}
+
+.sobre-titulo {
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.sobre-descricao {
+    width: 792px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    text-align: center;
+}

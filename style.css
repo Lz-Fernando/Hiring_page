@@ -1,4 +1,5 @@
 @import url(styles/header.css);
+@import url(styles/sobre.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
@@ -7,6 +8,7 @@
     --cinza-claro: #667085;
     --branco: #ffffff;
     --vermelho: #8E2424;
+    --preto: #101828;
 }
 
 * {
