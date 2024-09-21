@@ -1,0 +1,16 @@
+@import url(styles/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-principal: 'inter';
+    --cinza: #3A404E;
+    --cinza-claro: #667085;
+    --branco: #ffffff;
+    --vermelho: #8E2424;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
