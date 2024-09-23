@@ -1,0 +1,38 @@
+.vagas {
+  padding: 96px 0;
+}
+
+.vagas-cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.vagas-cabecalho-titulo {
+  border-radius: 16px;
+  padding: 4px 12px;
+  background-color: #8E24240D;
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vermelho);
+}
+
+.vagas-cabecalho-subtitulo {
+  font-family: var(--fonte-principal);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--preto);
+}
+
+.vagas-cabecalho-conteudo {
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza-claro);
+}
+
+.vagas-cabecalho-imagem {
+  width: 1216px;
+}

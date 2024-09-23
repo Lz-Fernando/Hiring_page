@@ -1,0 +1,32 @@
+.metricas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 96px;
+}
+
+.metricas-container {
+  width: 280px;
+}
+
+.metricas-container-titulo {
+  font-family: var(--fonte-principal);
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--vermelho);
+}
+
+.metricas-container-subtitulo {
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--preto);
+}
+
+.metricas-container-conteudo {
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cinza-claro);
+}
