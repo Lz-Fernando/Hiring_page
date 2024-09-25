@@ -11,10 +11,12 @@
     --branco: #ffffff;
     --vermelho: #8E2424;
     --preto: #101828;
+    --cinza-transparente: #eaecf0;
 }
 
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: var(--fonte-principal);
 }

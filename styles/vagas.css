@@ -1,4 +1,4 @@
-.vagas {
+.vagas-secao {
   padding: 96px 0;
 }
 
@@ -35,4 +35,49 @@
 
 .vagas-cabecalho-imagem {
   width: 1216px;
+}
+
+.vagas {
+  margin: 96px auto;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.vagas-tipo {
+  margin: 0 auto;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.vagas-tipo-titulo {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--preto);
+}
+
+.vagas-tipo-vaga {
+  padding: 24px 24px 28px 24px;
+  border: 1px solid var(--cinza-transparente);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.vagas-tipo-vaga-titulo {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--preto);
+}
+
+.vagas-tipo-vaga-descricao {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cinza-claro);
 }
