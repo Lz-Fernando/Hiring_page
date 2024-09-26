@@ -1,0 +1,42 @@
+.feedback {
+  width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--vermelho-claro);
+  padding: 64px;
+  border-radius: 16px;
+  margin-bottom: 96px;
+}
+
+.feeedback-titulo {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vermelho);
+}
+
+.feedback-descricao {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--preto);
+  text-align: center;
+}
+
+.feedback-imagem {
+  margin-top: 15px;
+  width: 56px;
+}
+
+.feedback-nome {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--preto);
+}
+
+.feedback-funcao {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cinza-claro);
+}

@@ -12,7 +12,7 @@
 .vagas-cabecalho-titulo {
   border-radius: 16px;
   padding: 4px 12px;
-  background-color: #8E24240D;
+  background-color: var(--vermelho-claro);
   font-family: var(--fonte-principal);
   font-size: 14px;
   font-weight: 500;
